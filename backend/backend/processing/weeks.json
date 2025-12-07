@@ -1,0 +1,175 @@
+{
+  "week_1": {
+    "week_number": 1,
+    "title": "Physical AI Foundations",
+    "chapters": [
+      "Introduction to Physical AI",
+      "Embodied Intelligence & Physical Laws"
+    ],
+    "learning_objectives": [
+      "Understand Physical AI concepts",
+      "Learn about embodied intelligence"
+    ],
+    "estimated_hours": 8
+  },
+  "week_2": {
+    "week_number": 2,
+    "title": "Physical AI Foundations (continued)",
+    "chapters": [
+      "Why Physical AI Matters",
+      "The Emerging Humanoid Robotics Landscape"
+    ],
+    "learning_objectives": [
+      "Understand importance of Physical AI",
+      "Explore humanoid robotics landscape"
+    ],
+    "estimated_hours": 8
+  },
+  "week_3": {
+    "week_number": 3,
+    "title": "ROS 2 Fundamentals",
+    "chapters": [
+      "ROS 2 Architecture Overview",
+      "Nodes, Topics, Services & Actions"
+    ],
+    "learning_objectives": [
+      "Learn ROS 2 architecture",
+      "Understand ROS 2 communication primitives"
+    ],
+    "estimated_hours": 8
+  },
+  "week_4": {
+    "week_number": 4,
+    "title": "ROS 2 Continued",
+    "chapters": [
+      "ROS 2 Packages & Workflows",
+      "URDF for Humanoid Robots"
+    ],
+    "learning_objectives": [
+      "Master ROS 2 packages",
+      "Understand URDF for humanoid robots"
+    ],
+    "estimated_hours": 8
+  },
+  "week_5": {
+    "week_number": 5,
+    "title": "ROS 2 Advanced",
+    "chapters": [
+      "Launch Files & Parameter Management"
+    ],
+    "learning_objectives": [
+      "Learn launch files and parameter management"
+    ],
+    "estimated_hours": 8
+  },
+  "week_6": {
+    "week_number": 6,
+    "title": "Gazebo Simulation",
+    "chapters": [
+      "Simulation Theory: Gravity, Forces & Collisions",
+      "Gazebo Physics Simulation"
+    ],
+    "learning_objectives": [
+      "Understand simulation theory",
+      "Learn Gazebo physics simulation"
+    ],
+    "estimated_hours": 8
+  },
+  "week_7": {
+    "week_number": 7,
+    "title": "Unity and Sensor Simulation",
+    "chapters": [
+      "Robot Description Formats (URDF → SDF)",
+      "Unity for Humanoid Visualization",
+      "Sensor Simulation: LiDAR, Depth, IMU"
+    ],
+    "learning_objectives": [
+      "Learn Unity visualization",
+      "Understand sensor simulation"
+    ],
+    "estimated_hours": 8
+  },
+  "week_8": {
+    "week_number": 8,
+    "title": "NVIDIA Isaac Introduction",
+    "chapters": [
+      "Isaac Sim Fundamentals",
+      "Synthetic Data & Photorealistic Rendering"
+    ],
+    "learning_objectives": [
+      "Learn Isaac Sim fundamentals",
+      "Understand synthetic data generation"
+    ],
+    "estimated_hours": 8
+  },
+  "week_9": {
+    "week_number": 9,
+    "title": "Isaac Perception and Navigation",
+    "chapters": [
+      "Isaac ROS: VSLAM & Perception",
+      "Nav2 Path Planning for Bipedal Robots"
+    ],
+    "learning_objectives": [
+      "Learn Isaac ROS perception",
+      "Understand Nav2 for bipedal robots"
+    ],
+    "estimated_hours": 8
+  },
+  "week_10": {
+    "week_number": 10,
+    "title": "Isaac Advanced",
+    "chapters": [
+      "Reinforcement Learning for Control",
+      "Sim-to-Real Transfer"
+    ],
+    "learning_objectives": [
+      "Learn reinforcement learning for control",
+      "Understand sim-to-real transfer"
+    ],
+    "estimated_hours": 8
+  },
+  "week_11": {
+    "week_number": 11,
+    "title": "Humanoid Robotics",
+    "chapters": [
+      "Humanoid Kinematics",
+      "Humanoid Dynamics"
+    ],
+    "learning_objectives": [
+      "Learn humanoid kinematics",
+      "Understand humanoid dynamics"
+    ],
+    "estimated_hours": 8
+  },
+  "week_12": {
+    "week_number": 12,
+    "title": "Humanoid Control and Interaction",
+    "chapters": [
+      "Bipedal Locomotion & Balance",
+      "Manipulation & Grasping",
+      "Human-Robot Interaction Design"
+    ],
+    "learning_objectives": [
+      "Master bipedal locomotion",
+      "Learn manipulation and grasping",
+      "Understand human-robot interaction"
+    ],
+    "estimated_hours": 8
+  },
+  "week_13": {
+    "week_number": 13,
+    "title": "VLA Systems and Capstone",
+    "chapters": [
+      "Voice-to-Action: Whisper Integration",
+      "Natural Language → ROS 2 Plans",
+      "LLM Cognitive Planning",
+      "Multimodal Interaction (Speech, Gesture, Vision)",
+      "Capstone: Autonomous Humanoid Robot"
+    ],
+    "learning_objectives": [
+      "Learn VLA systems",
+      "Complete capstone project"
+    ],
+    "estimated_hours": 10
+  }
+}

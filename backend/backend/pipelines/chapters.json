@@ -1,0 +1,2083 @@
+[
+  {
+    "id": "introduction_to_physical_ai",
+    "title": "Introduction to Physical AI",
+    "part": "I",
+    "part_title": "Foundations of Physical AI",
+    "description": "Introduction to Physical AI and embodied intelligence concepts",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 1,
+    "key_concepts": [
+      "Physical AI definition",
+      "Embodied intelligence",
+      "Real-world interaction",
+      "Sensorimotor integration"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Define Physical AI and its importance",
+      "Distinguish from traditional AI approaches",
+      "Understand embodied intelligence principles"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "embodied_intelligence_physical_laws",
+    "title": "Embodied Intelligence & Physical Laws",
+    "part": "I",
+    "part_title": "Foundations of Physical AI",
+    "description": "Introduction to Physical AI and embodied intelligence concepts",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 1,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "why_physical_ai_matters",
+    "title": "Why Physical AI Matters",
+    "part": "I",
+    "part_title": "Foundations of Physical AI",
+    "description": "Introduction to Physical AI and embodied intelligence concepts",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 2,
+    "key_concepts": [
+      "Physical AI definition",
+      "Embodied intelligence",
+      "Real-world interaction",
+      "Sensorimotor integration"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Define Physical AI and its importance",
+      "Distinguish from traditional AI approaches",
+      "Understand embodied intelligence principles"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "humanoid_robotics_landscape",
+    "title": "The Emerging Humanoid Robotics Landscape",
+    "part": "I",
+    "part_title": "Foundations of Physical AI",
+    "description": "Introduction to Physical AI and embodied intelligence concepts",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 2,
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "ros2_architecture_overview",
+    "title": "ROS 2 Architecture Overview",
+    "part": "II",
+    "part_title": "ROS 2: The Robotic Nervous System",
+    "description": "ROS 2 architecture and communication systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 3,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "nodes_topics_services_actions",
+    "title": "Nodes, Topics, Services & Actions",
+    "part": "II",
+    "part_title": "ROS 2: The Robotic Nervous System",
+    "description": "ROS 2 architecture and communication systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 3,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "ros2_packages_workflows",
+    "title": "ROS 2 Packages & Workflows (Python / rclpy)",
+    "part": "II",
+    "part_title": "ROS 2: The Robotic Nervous System",
+    "description": "ROS 2 architecture and communication systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 4,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "urdf_for_humanoid_robots",
+    "title": "URDF for Humanoid Robots",
+    "part": "II",
+    "part_title": "ROS 2: The Robotic Nervous System",
+    "description": "ROS 2 architecture and communication systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 4,
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "launch_files_parameter_management",
+    "title": "Launch Files & Parameter Management",
+    "part": "II",
+    "part_title": "ROS 2: The Robotic Nervous System",
+    "description": "ROS 2 architecture and communication systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 5,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "simulation_theory_gravity_forces_collisions",
+    "title": "Simulation Theory: Gravity, Forces & Collisions",
+    "part": "III",
+    "part_title": "Simulation: Gazebo & Unity Digital Twins",
+    "description": "Physics simulation and digital twin technology",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 6,
+    "key_concepts": [
+      "Physics simulation",
+      "Collision detection",
+      "Force modeling",
+      "Digital twins"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [
+      "Simulation architecture",
+      "Physics engine workflow",
+      "Gazebo/Unity comparison"
+    ],
+    "source_refs": [],
+    "learning_objectives": [
+      "Set up physics simulation environments",
+      "Model physical interactions",
+      "Validate simulation accuracy"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "gazebo_physics_simulation",
+    "title": "Gazebo Physics Simulation",
+    "part": "III",
+    "part_title": "Simulation: Gazebo & Unity Digital Twins",
+    "description": "Physics simulation and digital twin technology",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 6,
+    "key_concepts": [
+      "Physics simulation",
+      "Collision detection",
+      "Force modeling",
+      "Digital twins"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [
+      "Simulation architecture",
+      "Physics engine workflow",
+      "Gazebo/Unity comparison"
+    ],
+    "source_refs": [],
+    "learning_objectives": [
+      "Set up physics simulation environments",
+      "Model physical interactions",
+      "Validate simulation accuracy"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "robot_description_formats",
+    "title": "Robot Description Formats (URDF â†’ SDF)",
+    "part": "III",
+    "part_title": "Simulation: Gazebo & Unity Digital Twins",
+    "description": "Physics simulation and digital twin technology",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 7,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "unity_for_humanoid_visualization",
+    "title": "Unity for Humanoid Visualization",
+    "part": "III",
+    "part_title": "Simulation: Gazebo & Unity Digital Twins",
+    "description": "Physics simulation and digital twin technology",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 7,
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "sensor_simulation_lidar_depth_imu",
+    "title": "Sensor Simulation: LiDAR, Depth, IMU",
+    "part": "III",
+    "part_title": "Simulation: Gazebo & Unity Digital Twins",
+    "description": "Physics simulation and digital twin technology",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 7,
+    "key_concepts": [
+      "Physics simulation",
+      "Collision detection",
+      "Force modeling",
+      "Digital twins"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [
+      "Simulation architecture",
+      "Physics engine workflow",
+      "Gazebo/Unity comparison"
+    ],
+    "source_refs": [],
+    "learning_objectives": [
+      "Set up physics simulation environments",
+      "Model physical interactions",
+      "Validate simulation accuracy"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "isaac_sim_fundamentals",
+    "title": "Isaac Sim Fundamentals",
+    "part": "IV",
+    "part_title": "The NVIDIA Isaac AI Robotics Platform",
+    "description": "NVIDIA's AI robotics framework and tools",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 8,
+    "key_concepts": [
+      "NVIDIA Isaac platform",
+      "Synthetic data generation",
+      "Perception systems",
+      "Navigation"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Deploy Isaac Sim for robotics",
+      "Implement perception pipelines",
+      "Configure navigation systems"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Isaac Sim",
+      "Isaac ROS",
+      "VSLAM",
+      "Nav2"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "synthetic_data_photorealistic_rendering",
+    "title": "Synthetic Data & Photorealistic Rendering",
+    "part": "IV",
+    "part_title": "The NVIDIA Isaac AI Robotics Platform",
+    "description": "NVIDIA's AI robotics framework and tools",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 8,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "isaac_ros_vslam_perception",
+    "title": "Isaac ROS: VSLAM & Perception",
+    "part": "IV",
+    "part_title": "The NVIDIA Isaac AI Robotics Platform",
+    "description": "NVIDIA's AI robotics framework and tools",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 9,
+    "key_concepts": [
+      "NVIDIA Isaac platform",
+      "Synthetic data generation",
+      "Perception systems",
+      "Navigation"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Deploy Isaac Sim for robotics",
+      "Implement perception pipelines",
+      "Configure navigation systems"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Isaac Sim",
+      "Isaac ROS",
+      "VSLAM",
+      "Nav2"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "nav2_path_planning_bipedal_robots",
+    "title": "Nav2 Path Planning for Bipedal Robots",
+    "part": "IV",
+    "part_title": "The NVIDIA Isaac AI Robotics Platform",
+    "description": "NVIDIA's AI robotics framework and tools",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 9,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "reinforcement_learning_control",
+    "title": "Reinforcement Learning for Control",
+    "part": "IV",
+    "part_title": "The NVIDIA Isaac AI Robotics Platform",
+    "description": "NVIDIA's AI robotics framework and tools",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 10,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "sim_to_real_transfer",
+    "title": "Sim-to-Real Transfer",
+    "part": "IV",
+    "part_title": "The NVIDIA Isaac AI Robotics Platform",
+    "description": "NVIDIA's AI robotics framework and tools",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 10,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "humanoid_kinematics",
+    "title": "Humanoid Kinematics",
+    "part": "V",
+    "part_title": "Humanoid Robotics Engineering",
+    "description": "Humanoid robot design and control",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 11,
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "humanoid_dynamics",
+    "title": "Humanoid Dynamics",
+    "part": "V",
+    "part_title": "Humanoid Robotics Engineering",
+    "description": "Humanoid robot design and control",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 11,
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "bipedal_locomotion_balance",
+    "title": "Bipedal Locomotion & Balance",
+    "part": "V",
+    "part_title": "Humanoid Robotics Engineering",
+    "description": "Humanoid robot design and control",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 12,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "manipulation_grasping",
+    "title": "Manipulation & Grasping",
+    "part": "V",
+    "part_title": "Humanoid Robotics Engineering",
+    "description": "Humanoid robot design and control",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 12,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "human_robot_interaction_design",
+    "title": "Human-Robot Interaction Design",
+    "part": "V",
+    "part_title": "Humanoid Robotics Engineering",
+    "description": "Humanoid robot design and control",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 12,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "voice_to_action_whisper_integration",
+    "title": "Voice-to-Action: Whisper Integration",
+    "part": "VI",
+    "part_title": "Vision-Language-Action (VLA) Systems",
+    "description": "Integrated perception-action systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 13,
+    "key_concepts": [
+      "Vision-Language-Action integration",
+      "Multimodal perception",
+      "Language grounding",
+      "Action planning"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Integrate vision and language",
+      "Map language to actions",
+      "Implement multimodal systems"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Large language models",
+      "Computer vision",
+      "Action execution",
+      "Multimodal fusion"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "natural_language_ros2_plans",
+    "title": "Natural Language â†’ ROS 2 Plans",
+    "part": "VI",
+    "part_title": "Vision-Language-Action (VLA) Systems",
+    "description": "Integrated perception-action systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 13,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "llm_cognitive_planning",
+    "title": "LLM Cognitive Planning",
+    "part": "VI",
+    "part_title": "Vision-Language-Action (VLA) Systems",
+    "description": "Integrated perception-action systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 13,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "multimodal_interaction",
+    "title": "Multimodal Interaction (Speech, Gesture, Vision)",
+    "part": "VI",
+    "part_title": "Vision-Language-Action (VLA) Systems",
+    "description": "Integrated perception-action systems",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 13,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "digital_twin_workstation_requirements",
+    "title": "Digital Twin Workstation Requirements",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "physical_ai_edge_kits_jetson",
+    "title": "Physical AI Edge Kits (Jetson)",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Physical AI definition",
+      "Embodied intelligence",
+      "Real-world interaction",
+      "Sensorimotor integration"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Define Physical AI and its importance",
+      "Distinguish from traditional AI approaches",
+      "Understand embodied intelligence principles"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "robot_lab_options",
+    "title": "Robot Lab Options (Proxy / Miniature / Premium)",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Hardware requirements",
+      "System architecture",
+      "Performance constraints",
+      "Safety considerations"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Specify hardware requirements",
+      "Design system architecture",
+      "Evaluate performance trade-offs"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": [
+      "Computing requirements",
+      "Sensor specifications",
+      "Network requirements",
+      "Safety systems"
+    ]
+  },
+  {
+    "id": "physical_ai_architecture_summary",
+    "title": "Physical AI Architecture Summary",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Physical AI definition",
+      "Embodied intelligence",
+      "Real-world interaction",
+      "Sensorimotor integration"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Define Physical AI and its importance",
+      "Distinguish from traditional AI approaches",
+      "Understand embodied intelligence principles"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "cloud_native_ether_lab",
+    "title": "Cloud-Native \"Ether Lab\"",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Hardware requirements",
+      "System architecture",
+      "Performance constraints",
+      "Safety considerations"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Specify hardware requirements",
+      "Design system architecture",
+      "Evaluate performance trade-offs"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": [
+      "Computing requirements",
+      "Sensor specifications",
+      "Network requirements",
+      "Safety systems"
+    ]
+  },
+  {
+    "id": "economy_jetson_student_kit",
+    "title": "Economy Jetson Student Kit",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "latency_trap_safety_requirements",
+    "title": "The Latency Trap & Safety Requirements",
+    "part": "VII",
+    "part_title": "Hardware, Labs & Infrastructure",
+    "description": "Hardware requirements and lab infrastructure",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "week_1_2_physical_ai_foundations",
+    "title": "Week 1â€“2: Physical AI Foundations",
+    "part": "VIII",
+    "part_title": "Weekly Learning Path (Weeks 1â€“13)",
+    "description": "Structured curriculum following the 13-week plan",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": [
+      1,
+      2
+    ],
+    "key_concepts": [
+      "Physical AI definition",
+      "Embodied intelligence",
+      "Real-world interaction",
+      "Sensorimotor integration"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Define Physical AI and its importance",
+      "Distinguish from traditional AI approaches",
+      "Understand embodied intelligence principles"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "week_3_5_ros2_fundamentals",
+    "title": "Week 3â€“5: ROS 2 Fundamentals",
+    "part": "VIII",
+    "part_title": "Weekly Learning Path (Weeks 1â€“13)",
+    "description": "Structured curriculum following the 13-week plan",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": [
+      3,
+      4,
+      5
+    ],
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "week_6_7_gazebo_simulation",
+    "title": "Week 6â€“7: Gazebo Simulation",
+    "part": "VIII",
+    "part_title": "Weekly Learning Path (Weeks 1â€“13)",
+    "description": "Structured curriculum following the 13-week plan",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": [
+      6,
+      7
+    ],
+    "key_concepts": [
+      "Physics simulation",
+      "Collision detection",
+      "Force modeling",
+      "Digital twins"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [
+      "Simulation architecture",
+      "Physics engine workflow",
+      "Gazebo/Unity comparison"
+    ],
+    "source_refs": [],
+    "learning_objectives": [
+      "Set up physics simulation environments",
+      "Model physical interactions",
+      "Validate simulation accuracy"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "week_8_10_nvidia_isaac",
+    "title": "Week 8â€“10: NVIDIA Isaac",
+    "part": "VIII",
+    "part_title": "Weekly Learning Path (Weeks 1â€“13)",
+    "description": "Structured curriculum following the 13-week plan",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": [
+      8,
+      9,
+      10
+    ],
+    "key_concepts": [
+      "NVIDIA Isaac platform",
+      "Synthetic data generation",
+      "Perception systems",
+      "Navigation"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Deploy Isaac Sim for robotics",
+      "Implement perception pipelines",
+      "Configure navigation systems"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Isaac Sim",
+      "Isaac ROS",
+      "VSLAM",
+      "Nav2"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "week_11_12_humanoid_robotics",
+    "title": "Week 11â€“12: Humanoid Robotics",
+    "part": "VIII",
+    "part_title": "Weekly Learning Path (Weeks 1â€“13)",
+    "description": "Structured curriculum following the 13-week plan",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": [
+      11,
+      12
+    ],
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "week_13_conversational_robotics",
+    "title": "Week 13: Conversational Robotics",
+    "part": "VIII",
+    "part_title": "Weekly Learning Path (Weeks 1â€“13)",
+    "description": "Structured curriculum following the 13-week plan",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": 13,
+    "key_concepts": [],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "ros2_package_project",
+    "title": "ROS 2 Package Project",
+    "part": "IX",
+    "part_title": "Assessments & Capstone Project",
+    "description": "Projects and assessments for the course",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Project planning",
+      "System integration",
+      "Evaluation metrics",
+      "Documentation"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Plan complex robotics projects",
+      "Integrate multiple systems",
+      "Evaluate project outcomes",
+      "Document technical work"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "gazebo_simulation_project",
+    "title": "Gazebo Simulation Project",
+    "part": "IX",
+    "part_title": "Assessments & Capstone Project",
+    "description": "Projects and assessments for the course",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Physics simulation",
+      "Collision detection",
+      "Force modeling",
+      "Digital twins"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [
+      "Simulation architecture",
+      "Physics engine workflow",
+      "Gazebo/Unity comparison"
+    ],
+    "source_refs": [],
+    "learning_objectives": [
+      "Set up physics simulation environments",
+      "Model physical interactions",
+      "Validate simulation accuracy"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [],
+    "hardware_specs": []
+  },
+  {
+    "id": "isaac_perception_pipeline",
+    "title": "Isaac Perception Pipeline",
+    "part": "IX",
+    "part_title": "Assessments & Capstone Project",
+    "description": "Projects and assessments for the course",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "NVIDIA Isaac platform",
+      "Synthetic data generation",
+      "Perception systems",
+      "Navigation"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Deploy Isaac Sim for robotics",
+      "Implement perception pipelines",
+      "Configure navigation systems"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Isaac Sim",
+      "Isaac ROS",
+      "VSLAM",
+      "Nav2"
+    ],
+    "hardware_specs": []
+  },
+  {
+    "id": "capstone_autonomous_humanoid_robot",
+    "title": "Capstone: Autonomous Humanoid Robot",
+    "part": "IX",
+    "part_title": "Assessments & Capstone Project",
+    "description": "Projects and assessments for the course",
+    "sections": [
+      "Overview",
+      "Key Concepts",
+      "Technical Sections",
+      "Examples",
+      "Implementation Notes",
+      "Exercises",
+      "Summary"
+    ],
+    "week": "N/A",
+    "key_concepts": [
+      "Humanoid robot design",
+      "Kinematic chains",
+      "Dynamic modeling",
+      "Balance control"
+    ],
+    "required_tables": [
+      "Key terms and definitions",
+      "Technical specifications",
+      "Comparison matrices"
+    ],
+    "required_diagrams": [],
+    "source_refs": [],
+    "learning_objectives": [
+      "Analyze humanoid kinematics",
+      "Model dynamic behavior",
+      "Implement balance control"
+    ],
+    "prerequisites": [
+      "Basic programming skills",
+      "Mathematics fundamentals",
+      "Introduction to robotics concepts"
+    ],
+    "exercises": [
+      "Conceptual questions",
+      "Practical implementation tasks",
+      "Analysis problems"
+    ],
+    "technical_concepts": [
+      "Forward kinematics",
+      "Inverse kinematics",
+      "Center of mass control",
+      "Zero moment point"
+    ],
+    "hardware_specs": []
+  }
+]

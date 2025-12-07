@@ -1,0 +1,38 @@
+{
+  "module_1": {
+    "title": "Introduction to Physical AI",
+    "chapters": [
+      "Introduction to Physical AI",
+      "Embodied Intelligence",
+      "Why Physical AI Matters"
+    ],
+    "topics": []
+  },
+  "module_2": {
+    "title": "ROS 2 and Communication",
+    "chapters": [
+      "ROS 2 Architecture",
+      "Nodes, Topics, Services, Actions",
+      "Packages and Workflows"
+    ],
+    "topics": []
+  },
+  "module_3": {
+    "title": "Simulation and Perception",
+    "chapters": [
+      "Gazebo Simulation",
+      "Unity Visualization",
+      "Sensor Simulation"
+    ],
+    "topics": []
+  },
+  "module_4": {
+    "title": "Advanced Robotics",
+    "chapters": [
+      "Humanoid Kinematics",
+      "Dynamics and Locomotion",
+      "Manipulation"
+    ],
+    "topics": []
+  }
+}

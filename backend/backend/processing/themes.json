@@ -1,0 +1,42 @@
+{
+  "physical_ai": {
+    "title": "Physical AI",
+    "description": "Core concepts of Physical AI",
+    "references": []
+  },
+  "embodied_intelligence": {
+    "title": "Embodied Intelligence",
+    "description": "Intelligence that emerges from interaction with the physical world",
+    "references": []
+  },
+  "ros2": {
+    "title": "ROS 2",
+    "description": "Robot Operating System 2",
+    "references": []
+  },
+  "gazebo_unity": {
+    "title": "Gazebo & Unity",
+    "description": "Simulation environments",
+    "references": []
+  },
+  "nvidia_isaac": {
+    "title": "NVIDIA Isaac",
+    "description": "AI robotics platform",
+    "references": []
+  },
+  "vla": {
+    "title": "VLA (Vision-Language-Action)",
+    "description": "Integrated perception-action systems",
+    "references": []
+  },
+  "hardware_requirements": {
+    "title": "Hardware Requirements",
+    "description": "Specifications for robots and infrastructure",
+    "references": []
+  },
+  "weekly_structure": {
+    "title": "Weekly Curriculum Structure",
+    "description": "13-week learning path",
+    "references": []
+  }
+}

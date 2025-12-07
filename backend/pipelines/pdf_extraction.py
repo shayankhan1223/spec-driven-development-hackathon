@@ -1,0 +1,356 @@
+"""
+Pipeline for building the global outline from extracted PDF data.
+"""
+import json
+
+def build_outline(themes_path, modules_path, weeks_path):
+    """
+    Task 2.1 — Build_Global_Outline
+    Convert the book outline defined in sp.plan into structured JSON with 9 parts and 40+ chapters
+    """
+    # Load the extracted data
+    with open(themes_path, 'r') as f:
+        themes = json.load(f)
+
+    with open(modules_path, 'r') as f:
+        modules = json.load(f)
+
+    with open(weeks_path, 'r') as f:
+        weeks = json.load(f)
+
+    # Build the 9-part outline
+    outline = {
+        "title": "Physical AI & Humanoid Robotics Textbook",
+        "parts": [
+            {
+                "part_number": "I",
+                "title": "Foundations of Physical AI",
+                "description": "Introduction to Physical AI and embodied intelligence concepts",
+                "chapters": [
+                    {
+                        "id": "introduction_to_physical_ai",
+                        "title": "Introduction to Physical AI",
+                        "week": 1,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "embodied_intelligence_physical_laws",
+                        "title": "Embodied Intelligence & Physical Laws",
+                        "week": 1,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "why_physical_ai_matters",
+                        "title": "Why Physical AI Matters",
+                        "week": 2,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "humanoid_robotics_landscape",
+                        "title": "The Emerging Humanoid Robotics Landscape",
+                        "week": 2,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "II",
+                "title": "ROS 2: The Robotic Nervous System",
+                "description": "ROS 2 architecture and communication systems",
+                "chapters": [
+                    {
+                        "id": "ros2_architecture_overview",
+                        "title": "ROS 2 Architecture Overview",
+                        "week": 3,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "nodes_topics_services_actions",
+                        "title": "Nodes, Topics, Services & Actions",
+                        "week": 3,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "ros2_packages_workflows",
+                        "title": "ROS 2 Packages & Workflows (Python / rclpy)",
+                        "week": 4,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "urdf_for_humanoid_robots",
+                        "title": "URDF for Humanoid Robots",
+                        "week": 4,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "launch_files_parameter_management",
+                        "title": "Launch Files & Parameter Management",
+                        "week": 5,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "III",
+                "title": "Simulation: Gazebo & Unity Digital Twins",
+                "description": "Physics simulation and digital twin technology",
+                "chapters": [
+                    {
+                        "id": "simulation_theory_gravity_forces_collisions",
+                        "title": "Simulation Theory: Gravity, Forces & Collisions",
+                        "week": 6,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "gazebo_physics_simulation",
+                        "title": "Gazebo Physics Simulation",
+                        "week": 6,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "robot_description_formats",
+                        "title": "Robot Description Formats (URDF → SDF)",
+                        "week": 7,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "unity_for_humanoid_visualization",
+                        "title": "Unity for Humanoid Visualization",
+                        "week": 7,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "sensor_simulation_lidar_depth_imu",
+                        "title": "Sensor Simulation: LiDAR, Depth, IMU",
+                        "week": 7,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "IV",
+                "title": "The NVIDIA Isaac AI Robotics Platform",
+                "description": "NVIDIA's AI robotics framework and tools",
+                "chapters": [
+                    {
+                        "id": "isaac_sim_fundamentals",
+                        "title": "Isaac Sim Fundamentals",
+                        "week": 8,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "synthetic_data_photorealistic_rendering",
+                        "title": "Synthetic Data & Photorealistic Rendering",
+                        "week": 8,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "isaac_ros_vslam_perception",
+                        "title": "Isaac ROS: VSLAM & Perception",
+                        "week": 9,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "nav2_path_planning_bipedal_robots",
+                        "title": "Nav2 Path Planning for Bipedal Robots",
+                        "week": 9,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "reinforcement_learning_control",
+                        "title": "Reinforcement Learning for Control",
+                        "week": 10,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "sim_to_real_transfer",
+                        "title": "Sim-to-Real Transfer",
+                        "week": 10,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "V",
+                "title": "Humanoid Robotics Engineering",
+                "description": "Humanoid robot design and control",
+                "chapters": [
+                    {
+                        "id": "humanoid_kinematics",
+                        "title": "Humanoid Kinematics",
+                        "week": 11,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "humanoid_dynamics",
+                        "title": "Humanoid Dynamics",
+                        "week": 11,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "bipedal_locomotion_balance",
+                        "title": "Bipedal Locomotion & Balance",
+                        "week": 12,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "manipulation_grasping",
+                        "title": "Manipulation & Grasping",
+                        "week": 12,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "human_robot_interaction_design",
+                        "title": "Human-Robot Interaction Design",
+                        "week": 12,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "VI",
+                "title": "Vision-Language-Action (VLA) Systems",
+                "description": "Integrated perception-action systems",
+                "chapters": [
+                    {
+                        "id": "voice_to_action_whisper_integration",
+                        "title": "Voice-to-Action: Whisper Integration",
+                        "week": 13,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "natural_language_ros2_plans",
+                        "title": "Natural Language → ROS 2 Plans",
+                        "week": 13,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "llm_cognitive_planning",
+                        "title": "LLM Cognitive Planning",
+                        "week": 13,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "multimodal_interaction",
+                        "title": "Multimodal Interaction (Speech, Gesture, Vision)",
+                        "week": 13,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "VII",
+                "title": "Hardware, Labs & Infrastructure",
+                "description": "Hardware requirements and lab infrastructure",
+                "chapters": [
+                    {
+                        "id": "digital_twin_workstation_requirements",
+                        "title": "Digital Twin Workstation Requirements",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "physical_ai_edge_kits_jetson",
+                        "title": "Physical AI Edge Kits (Jetson)",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "robot_lab_options",
+                        "title": "Robot Lab Options (Proxy / Miniature / Premium)",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "physical_ai_architecture_summary",
+                        "title": "Physical AI Architecture Summary",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "cloud_native_ether_lab",
+                        "title": "Cloud-Native \"Ether Lab\"",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "economy_jetson_student_kit",
+                        "title": "Economy Jetson Student Kit",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "latency_trap_safety_requirements",
+                        "title": "The Latency Trap & Safety Requirements",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "VIII",
+                "title": "Weekly Learning Path (Weeks 1–13)",
+                "description": "Structured curriculum following the 13-week plan",
+                "chapters": [
+                    {
+                        "id": "week_1_2_physical_ai_foundations",
+                        "title": "Week 1–2: Physical AI Foundations",
+                        "week": [1, 2],
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "week_3_5_ros2_fundamentals",
+                        "title": "Week 3–5: ROS 2 Fundamentals",
+                        "week": [3, 4, 5],
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "week_6_7_gazebo_simulation",
+                        "title": "Week 6–7: Gazebo Simulation",
+                        "week": [6, 7],
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "week_8_10_nvidia_isaac",
+                        "title": "Week 8–10: NVIDIA Isaac",
+                        "week": [8, 9, 10],
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "week_11_12_humanoid_robotics",
+                        "title": "Week 11–12: Humanoid Robotics",
+                        "week": [11, 12],
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "week_13_conversational_robotics",
+                        "title": "Week 13: Conversational Robotics",
+                        "week": 13,
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            },
+            {
+                "part_number": "IX",
+                "title": "Assessments & Capstone Project",
+                "description": "Projects and assessments for the course",
+                "chapters": [
+                    {
+                        "id": "ros2_package_project",
+                        "title": "ROS 2 Package Project",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "gazebo_simulation_project",
+                        "title": "Gazebo Simulation Project",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "isaac_perception_pipeline",
+                        "title": "Isaac Perception Pipeline",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    },
+                    {
+                        "id": "capstone_autonomous_humanoid_robot",
+                        "title": "Capstone: Autonomous Humanoid Robot",
+                        "sections": ["Overview", "Key Concepts", "Technical Sections", "Examples", "Implementation Notes", "Exercises", "Summary"]
+                    }
+                ]
+            }
+        ]
+    }
+
+    return outline

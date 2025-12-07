@@ -1,0 +1,5 @@
+# Requirements for Physical AI & Humanoid Robotics Textbook Generator
+requests>=2.28.0
+PyMuPDF>=1.21.0  # For PDF processing
+pymongo>=4.3.0    # If using MongoDB for any data storage
+python-dotenv>=0.19.0
